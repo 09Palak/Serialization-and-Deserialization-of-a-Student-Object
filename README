@@ -1,0 +1,18 @@
+THIS IS CODE FOR:
+Part b: Serialization and Deserialization of a Student Object
+Objective:
+To implement Java serialization to save a Student object to a file and later retrieve it through deserialization.
+
+Explanation:
+Serialization helps persist object state and is useful for saving objects in files or transmitting over a network. This task includes:
+
+Creating a Student class with fields like studentID, name, and grade.
+
+Making the class implement the Serializable interface.
+
+Writing a program to:
+
+Serialize the Student object using ObjectOutputStream.
+Save it to a file.
+Deserialize it using ObjectInputStream to reconstruct the object.
+Print the student’s data to confirm successful deserialization.
